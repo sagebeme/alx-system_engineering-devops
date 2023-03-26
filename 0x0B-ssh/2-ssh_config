@@ -1,6 +1,6 @@
 # SSH Config File
 #
-Host web-01
+Host sage-01
 	Hostname 54.175.166.7
 	User ubuntu
 	PasswordAuthentication no
