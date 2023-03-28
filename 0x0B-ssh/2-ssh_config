@@ -1,7 +1,8 @@
 # SSH Config File
 #
-Host sage-01
-	Hostname 54.175.166.7
-	User ubuntu
-	PasswordAuthentication no
-	IdentityFile ~/.ssh/school
+Host Sage-01
+        HostName 54.175.166.7
+        User Ubuntu
+        IdentityFile /c/Users/Sagebeme/.ssh
+        PubkeyAuthentication yes
+        PasswordAuthentication no
