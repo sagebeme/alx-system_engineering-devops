@@ -10,14 +10,14 @@ defaults
 	timeout client  30s
 	timeout server  30s
 
-frontend sage-frontend
+frontend th3gr00t-tech-frontend
 	bind *:80
 	bind *:443 ssl crt /etc/haproxy/certs/sagebeme.tech.pem
-	http-request redirect scheme https unless { ssl_fc }
+	http-request redirect scheme https code 301 unless { ssl_fc }
 	http-request set-header X-Forwarded-Proto https
-	default_backend sage-backend
+	default_backend th3gr00t-tech-backend
 
-backend sage-backend
+backend th3gr00t-tech-backend
 	balance roundrobin
 	server 131064-web-01 54.175.166.7:80 check
 	server 131064-web-02 18.204.16.81:80 check
