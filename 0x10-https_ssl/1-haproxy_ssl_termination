@@ -42,4 +42,4 @@ frontend sage-frontend
 backend sage-backend
         balance roundrobin
         server 131064-web-01 54.175.166.7:80 check
-        server 131064-web-02 18.204.16.81:80 check
+        server 131064-web-02 54.160.127.75:80 check
