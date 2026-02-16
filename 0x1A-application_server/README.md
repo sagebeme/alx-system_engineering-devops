@@ -7,6 +7,20 @@ Upstart script to keep the application running on server reboots.
 
 ## Tasks :page_with_curl:
 
+-----
+
+### 0. Application server (Gunicorn, Nginx, AirBnB)
+
+mandatory
+
+Set up development/production with Python, Gunicorn, Nginx; serve AirBnB clone; deploy and reload without downtime. Run: as per task.
+
+**Repo:**
+
+-   GitHub repository: `alx-system_engineering-devops`
+-   Directory: `0x1A-application_server`
+-   File: (task configs/scripts as per project)
+
 * **0. Set up development with Python**
   * In this task, I configured the file `web_flask/0-hello_route.py` from my
   [AirBnB_clone_v2](https://github.com/bdbaraban/AirBnB_clone_v2) to serve content

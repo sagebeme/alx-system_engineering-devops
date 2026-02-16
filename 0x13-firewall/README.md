@@ -4,6 +4,20 @@ In this project, I used `ufw` to configure firewalls on my issued web servers.
 
 ## Tasks :page_with_curl:
 
+-----
+
+### 0. Firewall (ufw, block/allow, port forwarding)
+
+mandatory
+
+Configure ufw: block all incoming except 22/80/443; port forwarding 8080 to 80. Run: as per task (ufw, config).
+
+**Repo:**
+
+-   GitHub repository: `alx-system_engineering-devops`
+-   Directory: `0x13-firewall`
+-   File: (task scripts/configs as per project)
+
   following multiple-choice questions, one per line:
   * What is a firewall?
 	  * A hardware security system.

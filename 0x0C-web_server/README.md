@@ -25,6 +25,20 @@
 
 ## Tasks
 
+-----
+
+### 0. Web server (transfer, nginx, domain, redirection, 404)
+
+mandatory
+
+Transfer files, install nginx, set up domain, redirection, and custom 404. Run: as per task (e.g. `curl`, `nginx`).
+
+**Repo:**
+
+-   GitHub repository: `alx-system_engineering-devops`
+-   Directory: `0x0C-web_server`
+-   File: (task scripts as per project)
+
 <details>
 <summary><a href="./0-transfer_file">0. Transfer a file to your server</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/j2P4SmgY/image.png' border='0' alt='image'/></a>

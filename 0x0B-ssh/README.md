@@ -20,6 +20,20 @@
 
 ## Tasks
 
+-----
+
+### 0. SSH (keys, config, Puppet)
+
+mandatory
+
+Use a private key, create SSH key pair, configure client, and manage SSH config with Puppet. Run: as per task (e.g. `ssh` with key, `puppet apply`).
+
+**Repo:**
+
+-   GitHub repository: `alx-system_engineering-devops`
+-   Directory: `0x0B-ssh`
+-   File: (task scripts/manifests as per project)
+
 <details>
 <summary><a href="./0-use_a_private_key">0. Use a private key</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/yW4gBSpM/image.png' border='0' alt='image'/></a>

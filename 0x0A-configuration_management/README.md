@@ -25,3 +25,19 @@ puppet-lint -v
 # If you get an error saying puppet command not found, source the path
 source /etc/profile.d/puppet-agent.sh
 ```
+
+## Tasks
+
+-----
+
+### 0. Configuration management (Puppet)
+
+mandatory
+
+Create Puppet manifests to manage files and configurations. Run: `puppet apply manifest.pp` or as per task.
+
+**Repo:**
+
+-   GitHub repository: `alx-system_engineering-devops`
+-   Directory: `0x0A-configuration_management`
+-   File: (task manifests as per project)

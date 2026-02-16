@@ -83,6 +83,20 @@ Note that `docker` command will pull the Ubuntu docker container image from the 
 
 ## Tasks
 
+-----
+
+### 0. Web stack debugging #0 (Docker, give me a page)
+
+mandatory
+
+Fix a broken web stack in a Docker container so it serves a page. Run: use Docker and fix as per task.
+
+**Repo:**
+
+-   GitHub repository: `alx-system_engineering-devops`
+-   Directory: `0x0D-web_stack_debugging_0`
+-   File: (task scripts as per project)
+
 <details>
 <summary><a href="./0-give_me_a_page">0. Give me a page!</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/yxybJXPm/image.png' border='0' alt='image'/></a>
