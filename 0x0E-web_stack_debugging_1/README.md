@@ -11,6 +11,20 @@
 
 ## Tasks
 
+-----
+
+### 0. Web stack debugging #1 (Nginx port 80, short config)
+
+mandatory
+
+Fix Nginx to listen on port 80 and shorten config. Run: use Docker and apply fixes as per task.
+
+**Repo:**
+
+-   GitHub repository: `alx-system_engineering-devops`
+-   Directory: `0x0E-web_stack_debugging_1`
+-   File: (task scripts as per project)
+
 <details>
 <summary><a href="./0-nginx_likes_port_80">0. Nginx likes port 80</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/43fwt3rJ/image.png' border='0' alt='image'/></a>

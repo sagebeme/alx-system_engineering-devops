@@ -9,6 +9,22 @@ This repository contains information about bellow applied concepts:
 ## Context
 ![99 little bugs](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/287/99littlebugsinthecode-holberton.jpg)
 
+## Tasks
+
+-----
+
+### 0. Web stack debugging #2 (run as user, Nginx as nginx)
+
+mandatory
+
+Run software as another user; run Nginx as nginx user. Run: `./script` or apply fixes as per task.
+
+**Repo:**
+
+-   GitHub repository: `alx-system_engineering-devops`
+-   Directory: `0x12-web_stack_debugging_2`
+-   File: (task scripts as per project)
+
 ## Challenges
 
 ###  0. Run software as another user

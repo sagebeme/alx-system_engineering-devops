@@ -2,6 +2,21 @@
 
 In this project, I worked on loops and conditionals statements in Bash.
 
+Tasks
+-----
+
+### 0. Loops and parsing (RSA key, for/while/until, conditions, log parsing)
+
+mandatory
+
+Create SSH RSA key, write for/while/until loops, use if/elif/else, and parse apache-access.log in tasks 102–103. Run: `./script` or as per task.
+
+**Repo:**
+
+-   GitHub repository: `alx-system_engineering-devops`
+-   Directory: `0x04-loops_conditions_and_parsing`
+-   File: (task scripts as per project)
+
 ## Helper File :raised_hands:
 
 * [apache-access.log](./apache-access.log): An Apache access log file parsed in tasks `102` and `103`.

@@ -59,6 +59,20 @@
 
 ## Tasks
 
+-----
+
+### 0. Load balancer (HAProxy, Puppet header)
+
+mandatory
+
+Double webservers, install load balancer, add custom HTTP header with Puppet. Run: as per task (HAProxy, Puppet).
+
+**Repo:**
+
+-   GitHub repository: `alx-system_engineering-devops`
+-   Directory: `0x0F-load_balancer`
+-   File: (task configs/manifests as per project)
+
 <details>
 <summary><a href="./0-custom_http_response_header">0. Double the number of webservers</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/prMGd5GF/image.png' border='0' alt='image'/></a>
