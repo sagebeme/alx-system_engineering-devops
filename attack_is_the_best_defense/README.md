@@ -11,6 +11,28 @@ Introductory **network security** exercises: packet sniffing and a dictionary at
 
 Getting into the system
 
+## Task Descriptions
+
+### 0. Sniffing
+
+Answer file for the packet-sniffing task.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `attack_is_the_best_defense`
+- File: [0-sniffing](./0-sniffing)
+
+### 1. Dictionary attack
+
+Answer file for the dictionary-attack task.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `attack_is_the_best_defense`
+- File: [1-dictionary_attack](./1-dictionary_attack)
+
 ## Files
 
 | File | Description |

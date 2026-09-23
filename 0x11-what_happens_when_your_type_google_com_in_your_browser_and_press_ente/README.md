@@ -26,6 +26,28 @@ Write a blog post (or equivalent) explaining what happens from the URL to the re
 -   Directory: `0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_ente`
 -   File: (blog post or as per project)
 
+## Task Descriptions
+
+### 0. Blog post
+
+Link to the blog post.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_ente`
+- File: [0-blog_post](./0-blog_post)
+
+### 2. Contribution-to what-happens-when github answer
+
+Link to the contribution to the `what-happens-when` GitHub project.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_ente`
+- File: [2-contribution-to_what-happens-when_github_answer](./2-contribution-to_what-happens-when_github_answer)
+
 ## Files
 
 | File | Description |

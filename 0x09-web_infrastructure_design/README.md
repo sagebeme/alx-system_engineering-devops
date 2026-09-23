@@ -61,6 +61,48 @@
 </ul>
 </details>
 
+## Task Descriptions
+
+### 0. Simple web stack
+
+Design of a one-server web infrastructure ([diagram](./0-simple_web_stack.pdf)).
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x09-web_infrastructure_design`
+- File: [0-simple_web_stack](./0-simple_web_stack)
+
+### 1. Distributed web infrastructure
+
+Three-server infrastructure with a load balancer ([diagram](./1-distributed_web_infrastructure.pdf)).
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x09-web_infrastructure_design`
+- File: [1-distributed_web_infrastructure](./1-distributed_web_infrastructure)
+
+### 2. Secured and monitored web infrastructure
+
+Write a script that adds firewalls, an SSL certificate and monitoring clients ([diagram](./2-secured_and_monitored_web_infrastructure.pdf)).
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x09-web_infrastructure_design`
+- File: [2-secured_and_monitored_web_infrastructure](./2-secured_and_monitored_web_infrastructure)
+
+### 3. Scale up
+
+Splits components onto their own servers and adds a load-balancer cluster ([diagram](./3-scale_up.pdf)).
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x09-web_infrastructure_design`
+- File: [3-scale_up](./3-scale_up)
+
 ## Files
 
 | File | Description |

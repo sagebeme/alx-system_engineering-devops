@@ -94,6 +94,30 @@ root@ab6f4542747e:~#
 ## Author
 Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)
 
+## Task Descriptions
+
+_Tasks not already described above._
+
+### 100. 7 lines or less
+
+Using what you did for task #1, make your fix short and sweet.
+
+Requirements:
+
+*   Your Bash script must be 7 lines long or less
+*   There must be a new line at the end of the file
+*   You respect Bash script requirements
+*   You cannot use `;`
+*   You cannot use `&&`
+*   You cannot use `wget`
+*   You cannot execute your previous answer file (Do not include the name of the previous script in this one)
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x12-web_stack_debugging_2`
+- File: [100-fix_in_7_lines_or_less](./100-fix_in_7_lines_or_less)
+
 ## Files
 
 | File | Description |

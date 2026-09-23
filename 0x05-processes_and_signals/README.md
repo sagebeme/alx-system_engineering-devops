@@ -455,6 +455,40 @@ I started `7-highlander` in Terminal #0 and then run `8-beheaded_process` in
 -   Directory: `0x05-processes_and_signals`
 -   File: `8-beheaded_process`
 
+## Task Descriptions
+
+_Tasks not already described above._
+
+### 100. Process and pid file
+
+Write a script that writes its PID to `/var/run/myscript.pid` and handles `SIGTERM`, `SIGINT` and `SIGQUIT`.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: [100-process_and_pid_file](./100-process_and_pid_file)
+
+### 101. Manage my process
+
+Init-style script: `start`, `stop` and `restart` the `manage_my_process` daemon.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: [101-manage_my_process](./101-manage_my_process)
+
+### 102. Zombie
+
+C program that creates 5 zombie processes.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: [102-zombie.c](./102-zombie.c)
+
 ## Files
 
 | File | Description |

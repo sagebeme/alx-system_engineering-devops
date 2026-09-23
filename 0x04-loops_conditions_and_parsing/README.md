@@ -80,6 +80,60 @@ Create SSH RSA key, write for/while/until loops, use if/elif/else, and parse apa
     * If the file exists and is a regular file, displays: `school file is a regular file`.
     * Otherwise, displays nothing.
 
+## Task Descriptions
+
+_Tasks not already described above._
+
+### 10. Fizzbuzz
+
+Write a script that prints 1–100 with `Fizz`, `Buzz` and `FizzBuzz` substitutions.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x04-loops_conditions_and_parsing`
+- File: [10-fizzbuzz](./10-fizzbuzz)
+
+### 100. Read and cut
+
+Write a script that displays username, user id and home directory from `/etc/passwd`.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x04-loops_conditions_and_parsing`
+- File: [100-read_and_cut](./100-read_and_cut)
+
+### 101. Tell the story of passwd
+
+Write a script that tells the story of each `/etc/passwd` line using `while` and `IFS`.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x04-loops_conditions_and_parsing`
+- File: [101-tell_the_story_of_passwd](./101-tell_the_story_of_passwd)
+
+### 102. Lets parse apache logs
+
+Write a script that displays visitor IP and HTTP status code from an Apache log.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x04-loops_conditions_and_parsing`
+- File: [102-lets_parse_apache_logs](./102-lets_parse_apache_logs)
+
+### 103. Dig the-data
+
+Write a script that groups visitors by IP and status code, sorted by occurrences.
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x04-loops_conditions_and_parsing`
+- File: [103-dig_the-data](./103-dig_the-data)
+
 ## Files
 
 | File | Description |
