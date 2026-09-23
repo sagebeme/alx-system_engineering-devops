@@ -75,3 +75,11 @@ This repository contains **system engineering and DevOps** projects: shell basic
 ## Quick reference
 
 - Run scripts as in each folder's README (often `./script` or `bash script`).
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)
+
+## Acknowledgments
+
+These projects were completed as part of the [ALX Software Engineering](https://www.alxafrica.com/) curriculum.
