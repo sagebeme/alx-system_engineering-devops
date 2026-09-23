@@ -1,5 +1,16 @@
 # 0x0B. SSH
 
+## About
+
+Connecting to and working with remote servers over **SSH**: key-based authentication, generating key pairs, and client configuration.
+
+## Learning Objectives
+
+- What a server is and where servers usually live
+- What SSH is and how public/private key authentication works
+- How to create an RSA key pair and connect with it
+- How to configure `~/.ssh/config`, and the advantage of `#!/usr/bin/env bash`
+
 ## Resource
 
 - [What is a (physical) server - text](https://en.wikipedia.org/wiki/Server_%28computing%29#Hardware_requirement)
@@ -60,3 +71,16 @@ Use a private key, create SSH key pair, configure client, and manage SSH config 
 <ul><li>Install puppet stdlib module;</li></ul>
 <pre>sudo puppet module install puppetlabs-stdlib</pre>
 </details>
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-use_a_private_key](./0-use_a_private_key) | Connects to the server over SSH as `ubuntu` using the private key `~/.ssh/school` |
+| [1-create_ssh_key_pair](./1-create_ssh_key_pair) | Creates a 4096-bit RSA key pair named `school` with passphrase |
+| [2-ssh_config](./2-ssh_config) | SSH client config for a named host using key authentication with password authentication disabled |
+| [100-puppet_ssh_config.pp](./100-puppet_ssh_config.pp) | Puppet manifest that applies the same SSH client configuration |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

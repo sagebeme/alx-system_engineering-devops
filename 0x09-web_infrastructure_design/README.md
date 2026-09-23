@@ -1,5 +1,16 @@
 # 0x09. Web infrastructure design 
 
+## About
+
+**Web infrastructure design**: whiteboard diagrams and written explanations of web stacks, from a single server to a scaled, secured and monitored setup.
+
+## Learning Objectives
+
+- What a web stack is and the role of each component (web server, app server, database, load balancer)
+- What a single point of failure (SPOF) is and how to remove it
+- Firewalls, HTTPS/SSL and monitoring in a web infrastructure
+- How to scale up an infrastructure with clustering and split components
+
 ## Resource
 
 - [Web Infrastructure](https://youtu.be/lQNEW76KdYg)
@@ -49,3 +60,16 @@
   </li>
 </ul>
 </details>
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-simple_web_stack](./0-simple_web_stack) | Design of a one-server web infrastructure ([diagram](./0-simple_web_stack.pdf)) |
+| [1-distributed_web_infrastructure](./1-distributed_web_infrastructure) | Three-server infrastructure with a load balancer ([diagram](./1-distributed_web_infrastructure.pdf)) |
+| [2-secured_and_monitored_web_infrastructure](./2-secured_and_monitored_web_infrastructure) | Adds firewalls, an SSL certificate and monitoring clients ([diagram](./2-secured_and_monitored_web_infrastructure.pdf)) |
+| [3-scale_up](./3-scale_up) | Splits components onto their own servers and adds a load-balancer cluster ([diagram](./3-scale_up.pdf)) |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

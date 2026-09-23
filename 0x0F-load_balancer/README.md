@@ -1,5 +1,16 @@
 # 0x0F. Load balancer
 
+## About
+
+**Load balancing**: adding a second web server with a custom HTTP header and installing **HAProxy** to distribute traffic between servers.
+
+## Learning Objectives
+
+- What a load balancer is and why it is used
+- Load-balancing algorithms (round robin and others)
+- How to configure HAProxy and add custom headers in Nginx
+- How to automate the setup with Puppet and Fabric
+
 <p align="center">
   <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/275/qfdked8.png"/>
 </p>
@@ -87,3 +98,16 @@ Double webservers, install load balancer, add custom HTTP header with Puppet. Ru
 <summary><a href="./2-puppet_custom_http_response_header.pp">2. Add a custom HTTP header with Puppet</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/sD2G5kZY/image.png' border='0' alt='image'/></a>
 </details>
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-custom_http_response_header](./0-custom_http_response_header) | Installs Nginx and adds an `X-Served-By` response header set to the server hostname |
+| [1-install_load_balancer](./1-install_load_balancer) | Installs HAProxy and load-balances port 80 across two web servers using round robin |
+| [2-puppet_custom_http_response_header.pp](./2-puppet_custom_http_response_header.pp) | Adds the custom `X-Served-By` header with Puppet |
+| [fabfile.py](./fabfile.py) | Fabric helper for deploying/running tasks on the servers |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

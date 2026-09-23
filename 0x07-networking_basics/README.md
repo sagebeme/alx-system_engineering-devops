@@ -1,6 +1,17 @@
 _0x07. Networking basics #0
 ==========================
 
+## About
+
+Introduction to **networking**: the OSI model, network types, MAC and IP addresses, and TCP/UDP. Tasks 0–3 are quiz answers; tasks 4–5 are Bash scripts.
+
+## Learning Objectives
+
+- The OSI model and the role of each layer
+- Types of network (LAN, WAN) and what an IP address and a MAC address are
+- The difference between UDP and TCP, and what a port is
+- Useful tools: `ifconfig`, `telnet`, `nc`, `cut`, `ping`, `netstat`
+
 -   By Sagebeme
 -   Weight: 1
 
@@ -364,3 +375,18 @@ Next time you feel that your connection is slow, try the `ping` command to see
 -   GitHub repository: `alx-system_engineering-devops`
 -   Directory: `0x07-networking_basics`
 -   File: `5-is_the_host_on_the_network`
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-OSI_model](./0-OSI_model) | Quiz answers on the OSI model |
+| [1-types_of_network](./1-types_of_network) | Quiz answers on types of network |
+| [2-MAC_and_IP_address](./2-MAC_and_IP_address) | Quiz answers on MAC and IP addresses |
+| [3-UDP_and_TCP](./3-UDP_and_TCP) | Quiz answers on UDP and TCP |
+| [4-TCP_and_UDP_ports](./4-TCP_and_UDP_ports) | Displays listening ports with the PID and program name |
+| [5-is_the_host_on_the_network](./5-is_the_host_on_the_network) | Pings the IP address given as an argument 5 times, or prints usage |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

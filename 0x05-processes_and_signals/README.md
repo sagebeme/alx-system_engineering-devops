@@ -1,6 +1,17 @@
 0x05. Processes and signals
 ===========================
 
+## About
+
+**Processes and signals**: listing processes, finding PIDs, sending signals with `kill`/`pkill`, trapping signals and managing processes with PID files.
+
+## Learning Objectives
+
+- What a PID and a process are
+- How to find a process's PID and kill it
+- The signals a process can receive (`SIGTERM`, `SIGINT`, `SIGQUIT`, `SIGKILL`) and how to trap them
+- Zombie processes and how they arise
+
 -   By Dev Nderitu
 -   Weight: 1
 
@@ -443,3 +454,26 @@ I started `7-highlander` in Terminal #0 and then run `8-beheaded_process` in
 -   GitHub repository: `alx-system_engineering-devops`
 -   Directory: `0x05-processes_and_signals`
 -   File: `8-beheaded_process`
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-what-is-my-pid](./0-what-is-my-pid) | Displays its own PID |
+| [1-list_your_processes](./1-list_your_processes) | Displays a list of currently running processes |
+| [2-show_your_bash_pid](./2-show_your_bash_pid) | Displays lines containing `bash`, to help find its PID |
+| [3-show_your_bash_pid_made_easy](./3-show_your_bash_pid_made_easy) | Displays the PID and name of processes whose name contains `bash` |
+| [4-to_infinity_and_beyond](./4-to_infinity_and_beyond) | Displays `To infinity and beyond` indefinitely, sleeping 2 seconds between lines |
+| [5-dont_stop_me_now](./5-dont_stop_me_now) | Stops `4-to_infinity_and_beyond` using `kill` |
+| [6-stop_me_if_you_can](./6-stop_me_if_you_can) | Stops `4-to_infinity_and_beyond` without using `kill` or `killall` |
+| [7-highlander](./7-highlander) | Displays `To infinity and beyond` indefinitely and `I am invincible!!!` on `SIGTERM` |
+| [8-beheaded_process](./8-beheaded_process) | Kills the process `7-highlander` |
+| [67-stop_me_if_you_can](./67-stop_me_if_you_can) | Variant of the above that targets `7-highlander` instead |
+| [100-process_and_pid_file](./100-process_and_pid_file) | Writes its PID to `/var/run/myscript.pid` and handles `SIGTERM`, `SIGINT` and `SIGQUIT` |
+| [101-manage_my_process](./101-manage_my_process) | Init-style script: `start`, `stop` and `restart` the `manage_my_process` daemon |
+| [102-zombie.c](./102-zombie.c) | C program that creates 5 zombie processes |
+| [manage_my_process](./manage_my_process) | Helper daemon that writes `I am alive!` to `/tmp/my_process` every 2 seconds |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

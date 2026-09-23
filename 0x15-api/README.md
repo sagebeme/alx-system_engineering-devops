@@ -1,5 +1,15 @@
 # 0x15. API 
 
+## About
+
+Working with a **REST API** in Python: gathering employee TODO-list data from JSONPlaceholder and exporting it to CSV and JSON.
+
+## Learning Objectives
+
+- What an API is and what REST means
+- How to make HTTP requests with `requests`
+- How to read and write CSV and JSON files in Python
+
 ## Resource
 
 - [Friends don’t let friends program in shell script](https://www.turnkeylinux.org/blog/friends-dont-let-friends-program-shell-script)
@@ -29,3 +39,15 @@ Gather data from a REST API (e.g. with Python). Run: as per task (e.g. `python3 
 <summary><a href="./0-gather_data_from_an_API.py">0. Gather data from an API</a></summary><br>
 <a href='https://postimg.cc/N5NpbXMC' target='_blank'><img src='https://i.postimg.cc/8zG9pBVG/image.png' border='0' alt='image'/></a>
 </details>
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-gather_data_from_an_API.py](./0-gather_data_from_an_API.py) | Prints an employee's TODO-list progress, given the employee ID |
+| [1-export_to_CSV.py](./1-export_to_CSV.py) | Exports an employee's tasks to `USER_ID.csv` |
+| [2-export_to_JSON.py](./2-export_to_JSON.py) | Exports an employee's tasks to `USER_ID.json` |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

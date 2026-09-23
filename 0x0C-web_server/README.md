@@ -1,5 +1,16 @@
 # 0x0C. Web server
 
+## About
+
+**Web servers**: transferring files with `scp`, installing and configuring **Nginx**, setting up a domain name, redirects and a custom 404 page.
+
+## Learning Objectives
+
+- What a web server is and how DNS (A records) points a domain at it
+- How to transfer files with `scp` and configure Nginx
+- How to configure a redirect (`301`) and a custom `404` page
+- How to automate an Nginx setup with Puppet
+
 <p align="center">
   <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/266/8Gu52Qv.png" />
 </p>
@@ -69,3 +80,18 @@ Transfer files, install nginx, set up domain, redirection, and custom 404. Run: 
 <summary><a href="./7-puppet_install_nginx_web_server.pp">5. Install Nginx web server (w/ Puppet)</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Vs2dxb0D/image.png' border='0' alt='image'/></a>
 </details>
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-transfer_file](./0-transfer_file) | Transfers a file to a server with `scp` (path, IP, username, SSH key as arguments) |
+| [1-install_nginx_web_server](./1-install_nginx_web_server) | Installs Nginx and serves `Hello World!` on port 80 |
+| [2-setup_a_domain_name](./2-setup_a_domain_name) | The domain name pointing to the server |
+| [3-redirection](./3-redirection) | Configures `/redirect_me` as a 301 redirect |
+| [4-not_found_page_404](./4-not_found_page_404) | Configures a custom 404 page containing `Ceci n'est pas une page` |
+| [7-puppet_install_nginx_web_server.pp](./7-puppet_install_nginx_web_server.pp) | Installs Nginx with Puppet: `Hello World!` page and the `/redirect_me` 301 redirect |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

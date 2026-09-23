@@ -2,6 +2,14 @@
 
 In this project, I worked on loops and conditionals statements in Bash.
 
+## Learning Objectives
+
+- How to create SSH keys
+- The advantage of `#!/usr/bin/env bash` over `#!/bin/bash`
+- Using `while`, `until` and `for` loops
+- Using `if`, `else`, `elif` and `case` statements
+- Using the `cut` command and file/comparison operators
+
 Tasks
 -----
 
@@ -71,3 +79,27 @@ Create SSH RSA key, write for/while/until loops, use if/elif/else, and parse apa
     * If the file exists and is not empty, displays: `school file is not empty`.
     * If the file exists and is a regular file, displays: `school file is a regular file`.
     * Otherwise, displays nothing.
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-RSA_public_key.pub](./0-RSA_public_key.pub) | Public key of an RSA key pair created for the project |
+| [1-for_best_school](./1-for_best_school) | Displays `Best School` 10 times using a `for` loop |
+| [2-while_best_school](./2-while_best_school) | Displays `Best School` 10 times using a `while` loop |
+| [3-until_best_school](./3-until_best_school) | Displays `Best School` 10 times using an `until` loop |
+| [4-if_9_say_hi](./4-if_9_say_hi) | Displays `Best School` 10 times, printing `Hi` after the 9th |
+| [5-4_bad_luck_8_is_your_chance](./5-4_bad_luck_8_is_your_chance) | Loops 1–10 printing `bad luck` on the 4th, `good luck` on the 8th and `Best School` otherwise |
+| [6-superstitious_numbers](./6-superstitious_numbers) | Loops 1–20 with a `case` statement: `bad luck from China/Japan/Italy` on the 4th, 9th and 17th |
+| [7-clock](./7-clock) | Displays the time for 12 hours and 59 minutes |
+| [8-for_ls](./8-for_ls) | Lists the current directory showing only the part of each name after the first dash |
+| [9-to_file_or_not_to_file](./9-to_file_or_not_to_file) | Reports whether `school` exists, is empty, and whether it is a regular file |
+| [10-fizzbuzz](./10-fizzbuzz) | Prints 1–100 with `Fizz`, `Buzz` and `FizzBuzz` substitutions |
+| [100-read_and_cut](./100-read_and_cut) | Displays username, user id and home directory from `/etc/passwd` |
+| [101-tell_the_story_of_passwd](./101-tell_the_story_of_passwd) | Tells the story of each `/etc/passwd` line using `while` and `IFS` |
+| [102-lets_parse_apache_logs](./102-lets_parse_apache_logs) | Displays visitor IP and HTTP status code from an Apache log |
+| [103-dig_the-data](./103-dig_the-data) | Groups visitors by IP and status code, sorted by occurrences |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

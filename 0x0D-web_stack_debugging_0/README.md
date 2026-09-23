@@ -1,5 +1,15 @@
 # 0x0D. Web stack debugging #0 
 
+## About
+
+First **web stack debugging** project: fix a broken web stack inside a container and automate the fix in a Bash script.
+
+## Learning Objectives
+
+- How to debug a web stack systematically
+- Working with Docker containers (`docker exec`)
+- Reading logs and service state to find the root cause
+
 <p align="center">
   <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/265/uWLzjc8.jpg" />
 </p>
@@ -106,3 +116,13 @@ Fix a broken web stack in a Docker container so it serves a page. Run: use Docke
 <ul>
 AVOID installing docker in ubuntu 14.04
 </details>
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-give_me_a_page](./0-give_me_a_page) | Starts Apache so the container serves a page containing `Hello Holberton` |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

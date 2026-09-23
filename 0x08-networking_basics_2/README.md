@@ -1,6 +1,17 @@
 0x08. Networking basics #1
 ==========================
 
+## About
+
+**Networking #1**: manipulating IP addresses and ports from the shell with `hosts`, `ifconfig`/`ip` and `netcat`.
+
+## Learning Objectives
+
+- What localhost / `127.0.0.1` and `0.0.0.0` mean
+- How to display your machine's active IPv4 addresses
+- What `/etc/hosts` is and how to change it
+- How to check whether a port is open or listening with `netcat`
+
 -   By Sagebeme
 -   Weight: 1
 
@@ -208,3 +219,15 @@ As you can see, this can come in very handy in a multitude of situations. Maybe 
 -   GitHub repository: `alx-system_engineering-devops`
 -   Directory: `0x08-networking_basics_2`
 -   File: `100-port_listening_on_localhost`
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-change_your_home_IP](./0-change_your_home_IP) | Makes `localhost` resolve to `127.0.0.2` and `facebook.com` to `8.8.8.8` |
+| [1-show_attached_IPs](./1-show_attached_IPs) | Displays all active IPv4 addresses of the machine |
+| [100-port_listening_on_localhost](./100-port_listening_on_localhost) | Listens on port 98 on localhost using `nc` |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

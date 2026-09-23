@@ -1,6 +1,13 @@
 # Web stack debugging #2, challenge
+
 This repository contains information about bellow applied concepts:
 * Web stack debugging
+
+## Learning Objectives
+
+- Why services should not run as root
+- How to run a command as another user (`sudo -u`)
+- How to change the Nginx user and listening port
 
 ## Requirements
 - Ubuntu Linux 14.04 LTS
@@ -86,3 +93,11 @@ root@ab6f4542747e:~#
 
 ## Author
 Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-iamsomeoneelse](./0-iamsomeoneelse) | Runs `whoami` as the user passed as argument |
+| [1-run_nginx_as_nginx](./1-run_nginx_as_nginx) | Makes Nginx run as user `nginx` and listen on port 8080 |
+| [100-fix_in_7_lines_or_less](./100-fix_in_7_lines_or_less) | Same fix as task 1 in 7 lines or fewer |

@@ -1,6 +1,16 @@
 0x14. MySQL
 ===========
 
+## About
+
+**MySQL replication**: installing MySQL, creating users and configuring a primary–replica setup, plus a database backup script.
+
+## Learning Objectives
+
+- What a database and a primary–replica setup are
+- How to configure MySQL users and grants (including a replication user)
+- How to enable and check replication, and back up a database with `mysqldump`
+
 - By Sagebeme 
 - Weight: 1
 
@@ -410,3 +420,15 @@ ubuntu@03-web-01:~$
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x14-mysql`
 - File: `5-mysql_backup`
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [4-mysql_configuration_primary](./4-mysql_configuration_primary) | MySQL configuration file for the primary server |
+| [4-mysql_configuration_replica](./4-mysql_configuration_replica) | MySQL configuration file for the replica server |
+| [5-mysql_backup](./5-mysql_backup) | Generates a compressed dump of all databases, named `dd-mm-yyyy.tar.gz` |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

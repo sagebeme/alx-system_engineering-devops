@@ -1,5 +1,16 @@
 # 0x0A. Configuration management by Sagebeme
 
+## About
+
+Introduction to **configuration management with Puppet**: writing manifests that create a file, install a package and run a command.
+
+## Learning Objectives
+
+- What configuration management is and why it matters
+- Puppet resources (`file`, `package`, `exec`) and the Puppet DSL
+- Applying and linting manifests with `puppet apply` and `puppet-lint`
+- Idempotence: making the same manifest safe to run repeatedly
+
 ## Resource
 
 - [Intro to Configuration Management](https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management)
@@ -41,3 +52,16 @@ Create Puppet manifests to manage files and configurations. Run: `puppet apply m
 -   GitHub repository: `alx-system_engineering-devops`
 -   Directory: `0x0A-configuration_management`
 -   File: (task manifests as per project)
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-create_a_file.pp](./0-create_a_file.pp) | Creates `/tmp/school` (mode 0744, owner/group `www-data`) containing `I love Puppet` |
+| [1-install_a_package.pp](./1-install_a_package.pp) | Installs Flask 2.1.0 using `pip3` |
+| [2-execute_a_command.pp](./2-execute_a_command.pp) | Runs `pkill killmenow` to kill the process of that name |
+| [killmenow](./killmenow) | Helper script that sleeps forever, used as the target for task 2 |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

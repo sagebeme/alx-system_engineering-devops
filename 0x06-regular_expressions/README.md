@@ -1,6 +1,17 @@
 0x06. Regular expression
 ========================
 
+## About
+
+**Regular expressions**, practised in Ruby with `String#scan`. Each script takes one argument and prints only the part that matches the regex.
+
+## Learning Objectives
+
+- What regular expressions are and what they are used for
+- Anchors, character classes and quantifiers (`*`, `+`, `?`, `{n,m}`)
+- Building and testing regexes in Ruby (Oniguruma)
+- Matching real-world formats such as phone numbers and log entries
+
 -   By Dev Nderitu
 -   Weight: 1
 
@@ -339,3 +350,21 @@ $
 -   GitHub repository: `alx-system_engineering-devops`
 -   Directory: `0x06-regular_expressions`
 -   File: `100-textme.rb`
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-simply_match_school.rb](./0-simply_match_school.rb) | Matches `School` |
+| [1-repetition_token_0.rb](./1-repetition_token_0.rb) | Matches `hbtn` with between 2 and 5 `t`s (`hbt{2,5}n`) |
+| [2-repetition_token_1.rb](./2-repetition_token_1.rb) | Matches `htn` and `hbtn` (`hb?tn`) |
+| [3-repetition_token_2.rb](./3-repetition_token_2.rb) | Matches `hbtn`, `hbttn`, … one or more `t`s (`hbt+n`) |
+| [4-repetition_token_3.rb](./4-repetition_token_3.rb) | Matches `hbn`, `hbtn`, `hbttn`, … zero or more `t`s (`hbt*n`) |
+| [5-beginning_and_end.rb](./5-beginning_and_end.rb) | Matches a 3-character string starting with `h` and ending with `n` |
+| [6-phone_number.rb](./6-phone_number.rb) | Matches a 10-digit phone number |
+| [7-OMG_WHY_ARE_YOU_SHOUTING.rb](./7-OMG_WHY_ARE_YOU_SHOUTING.rb) | Matches only capital letters |
+| [100-textme.rb](./100-textme.rb) | Extracts `[SENDER],[RECEIVER],[FLAGS]` from TextMe VoIP log lines |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

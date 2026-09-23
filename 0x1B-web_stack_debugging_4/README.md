@@ -1,5 +1,15 @@
 # 0x1B. Web stack debugging #4
 
+## About
+
+Fifth **web stack debugging** project: tuning an Nginx server that fails under load, and lifting file-descriptor limits.
+
+## Learning Objectives
+
+- How to benchmark a web server (`ApacheBench`)
+- How file-descriptor (`ulimit`) limits affect a web server under load
+- How to fix and automate the changes with Puppet
+
 ## Web stack debugging #4
 
 This was the fifth in a series of web stack debugging projects. In these
@@ -32,3 +42,14 @@ Puppet: increase Apache traffic limit; fix user limit for holberton. Run: `puppe
   * [1-user_limit.pp](./1-user_limit.pp): Puppet manifest that changes the operating system
   configuration so that it is possible to login with the user `holberton` and open a file
   without error.
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [0-the_sky_is_the_limit_not.pp](./0-the_sky_is_the_limit_not.pp) | Raises the Nginx open-file limit so it handles more requests |
+| [1-user_limit.pp](./1-user_limit.pp) | Raises the hard and soft open-file limits for the `holberton` user |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)

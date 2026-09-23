@@ -5,6 +5,13 @@ project, I configured Nginx on the web servers provided me by Holberton School
 to serve a WSGI Flask app running through Gunicorn. Additionally, I set up an
 Upstart script to keep the application running on server reboots.
 
+## Learning Objectives
+
+- What an application server is and how it differs from a web server
+- How to run a WSGI app with Gunicorn and manage it with `systemd`
+- How to configure Nginx as a reverse proxy for dynamic and static routes
+- How to reload Gunicorn gracefully without downtime
+
 ## Tasks :page_with_curl:
 
 -----
@@ -60,3 +67,18 @@ Set up development/production with Python, Gunicorn, Nginx; serve AirBnB clone; 
 * **7. No service interruption**
   * [4-reload_gunicorn_no_downtime](./4-reload_gunicorn_no_downtime): Bash script that gracefully
   reloads Gunicorn.
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [2-app_server-nginx_config](./2-app_server-nginx_config) | Nginx config proxying `/airbnb-onepage` and the dynamic `number_odd_or_even` route |
+| [3-app_server-nginx_config](./3-app_server-nginx_config) | Refines the dynamic route to capture the number with a regex |
+| [4-app_server-nginx_config](./4-app_server-nginx_config) | Adds the `/api` route proxied to the API server |
+| [4-reload_gunicorn_no_downtime](./4-reload_gunicorn_no_downtime) | Gracefully reloads Gunicorn by sending `HUP` to its processes |
+| [5-app_server-nginx_config](./5-app_server-nginx_config) | Serves AirBnB clone v4: `/` proxied to `/2-hbnb` and `/static` for static content |
+| [gunicorn.service](./gunicorn.service) | `systemd` unit file for running Gunicorn |
+
+## Author
+
+Sagebeme | :octocat: [GitHub](https://github.com/sagebeme)
